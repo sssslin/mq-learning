@@ -1,17 +1,16 @@
-package rabbitmq.lessson1;
+package rabbitmq.helllworld;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
-
 /**
  * @author junfeng.ling
  * @date 2020/6/9 10:17
- * @Description:
+ * @Description:这是官方的demo,demo下面的命令行只是为了运行代码，在这里，直接用IDE代替了
+ * javac -cp amqp-client-5.7.1.jar Send.java Recv.java
+ * cp 是classpath 的缩写，意思是，把当前目录当做类路径，编译源码
  */
 public class Recv {
 
