@@ -38,6 +38,7 @@ public class ReceiveLogsDirect {
             System.out.println(" [x] Received '" +
                     delivery.getEnvelope().getRoutingKey() + "':'" + message + "'");
         };
+
         channel.basicConsume(queueName, true, deliverCallback, consumerTag -> { });
     }
 }

@@ -16,6 +16,7 @@ import com.rabbitmq.client.DeliverCallback;
  * 一个worker接收到135，另外一个接收到的是24
  * 在这个官方demo中，还能学习到的概念就是 公平调度、消息回执、消息的持久化等等
  * 以上就是工作队列中可以学习到的内容
+ * Distributing tasks among workers
  */
 public class Worker {
     private final static String TASK_QUEUE_NAME = "hello";

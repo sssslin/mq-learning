@@ -7,6 +7,9 @@ import com.rabbitmq.client.ConnectionFactory;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * https://www.cnblogs.com/wuhenzhidu/p/10802749.html
+ */
 public class EmitLogTopic {
 
     private static final String EXCHANGE_NAME = "topic_logs";

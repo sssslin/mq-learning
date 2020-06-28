@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 /**
  * @author junfeng.ling
  * @date 2020/6/16 20:40
- * @Description:
+ * @Description:https://www.cnblogs.com/wuhenzhidu/p/10800239.html
  */
 public class ReceiveLogs {
 
